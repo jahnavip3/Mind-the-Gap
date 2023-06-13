@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344A5F912A38F8F000062431 /* AwarenessHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344A5F902A38F8F000062431 /* AwarenessHelpView.swift */; };
+		344A5F932A38F91000062431 /* ComparisonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344A5F922A38F91000062431 /* ComparisonsView.swift */; };
+		344A5F952A38F95200062431 /* AddressIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344A5F942A38F95200062431 /* AddressIssueView.swift */; };
 		349182FD2A380AB6007C2039 /* Mind_the_GapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349182FC2A380AB6007C2039 /* Mind_the_GapApp.swift */; };
 		349182FF2A380AB6007C2039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349182FE2A380AB6007C2039 /* ContentView.swift */; };
 		349183012A380AB7007C2039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349183002A380AB7007C2039 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		344A5F902A38F8F000062431 /* AwarenessHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessHelpView.swift; sourceTree = "<group>"; };
+		344A5F922A38F91000062431 /* ComparisonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonsView.swift; sourceTree = "<group>"; };
+		344A5F942A38F95200062431 /* AddressIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressIssueView.swift; sourceTree = "<group>"; };
 		349182F92A380AB6007C2039 /* Mind the Gap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind the Gap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		349182FC2A380AB6007C2039 /* Mind_the_GapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_the_GapApp.swift; sourceTree = "<group>"; };
 		349182FE2A380AB6007C2039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				349182FC2A380AB6007C2039 /* Mind_the_GapApp.swift */,
 				349182FE2A380AB6007C2039 /* ContentView.swift */,
+				344A5F942A38F95200062431 /* AddressIssueView.swift */,
+				344A5F922A38F91000062431 /* ComparisonsView.swift */,
+				344A5F902A38F8F000062431 /* AwarenessHelpView.swift */,
 				349183002A380AB7007C2039 /* Assets.xcassets */,
 				349183022A380AB7007C2039 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				349182FF2A380AB6007C2039 /* ContentView.swift in Sources */,
 				349182FD2A380AB6007C2039 /* Mind_the_GapApp.swift in Sources */,
+				344A5F932A38F91000062431 /* ComparisonsView.swift in Sources */,
+				344A5F952A38F95200062431 /* AddressIssueView.swift in Sources */,
+				344A5F912A38F8F000062431 /* AwarenessHelpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

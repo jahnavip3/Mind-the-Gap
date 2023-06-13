@@ -8,19 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world..")
+        NavigationStack {
+            VStack {
+                Text("Mind the Gap")
+                NavigationLink(destination: AddressIssueView()) {
+                    Text("Address the Issue")
+                        .multilineTextAlignment(.center)
+                }
+                .padding()
+                
+                NavigationLink(destination: ComparisonsView()) {
+                        Text("Comparisons")
+                        .multilineTextAlignment(.center)
+                }
+                .padding()
+                NavigationLink(destination: AwarenessHelpView()) {
+                    Text("Awareness and Ways to Help")
+                        .multilineTextAlignment(.center)
+                }
+                .padding()
+                        
+                        
+                    }
+                }
+                .padding()
+            }
         }
-        .padding()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
